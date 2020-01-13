@@ -38,6 +38,8 @@ var move = (direction) => {
         height = Number(h)
     }
 
+
+
     switch (direction) {
         case "u":
             moveUp(length);

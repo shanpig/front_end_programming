@@ -1,8 +1,8 @@
 // some variables for remembering directions' keyCode
-var left = 37,
-    up = 38,
-    right = 39,
-    down = 40;
+var left = +37,
+    up = +38,
+    right = +39,
+    down = +40;
 
 $(() => {
 
@@ -22,9 +22,28 @@ $(() => {
 
     // prevent arrow keys move the window
     $(document).on("keydown", (e) => {
-        if (e.keyCode >= 37 && e.keyCode <= 40)
+        if (e.keyCode == up || e.keyCode == right) {
             e.preventDefault()
+            $("#block").addClass("rotateR")
+        }
+        if (e.keyCode == down || e.keyCode == left) {
+            e.preventDefault()
+            $("#block").addClass("rotateS")
+        }
     })
+
+    $(document).on("keyup", (e) => {
+        if (e.keyCode == up | e.keyCode == right) {
+            e.preventDefault()
+            $("#block").removeClass("rotateR")
+        }
+        if (e.keyCode == down | e.keyCode == left) {
+            e.preventDefault()
+            $("#block").removeClass("rotateS")
+        }
+
+    })
+
 
     // start block control
     $("#start").on("click", () => {

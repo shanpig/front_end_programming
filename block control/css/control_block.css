@@ -4,3 +4,23 @@
     color: white;
     transition: all 0.2ms;
 }
+
+.rotateR {
+    animation: rotateR 1s linear infinite;
+}
+
+.rotateS {
+    animation: rotateS 1s linear infinite;
+}
+
+@keyframes rotateR {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes rotateS {
+    to {
+        transform: rotate(-360deg)
+    }
+}
