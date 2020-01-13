@@ -1,0 +1,49 @@
+/* HOME */
+
+div .description {
+    font-size: 20pt;
+    font-family: serif;
+    padding: 20px;
+}
+
+.col-8.description {
+    background-color: rgba(235, 159, 98, 0.473);
+}
+
+.slide_image {
+    background-color: rgba(148, 97, 56, 0.473);
+}
+
+
+/* HOME */
+
+div .description {
+    font-size: 20pt;
+    font-family: serif;
+    padding: 20px;
+}
+
+.col-8.description {
+    background-color: rgba(235, 159, 98, 0.473);
+}
+
+.slide_image {
+    background-color: rgba(148, 97, 56, 0.473);
+}
+
+.addr {
+    font-style: italic;
+}
+
+address.addr {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+p.addr {
+    font-size: 25pt;
+}
+
+span.addr {
+    font-size: 18pt;
+}

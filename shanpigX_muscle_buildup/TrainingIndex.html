@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- title -->
+    <title>Muscle Buildup</title>
+    <link rel="shortcut icon" href="./img/pig.ico" />
+    <!-- bootstrap cdn from google -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- self-defined css -->
+    <link rel="stylesheet" href="./css/misc.css">
+    <link rel="stylesheet" href="./css/title.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/bodypart.css">
+</head>
+
+<body style="background-color: #000000;">
+    <!-- The title and navbar part in a container-fluid -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="jumbotron">
+                <div class="row">
+                    <!-- title -->
+                    <div class="col-4">
+                        <h1 class="title"><i>muscle buildup</i></h1>
+                        <h2 class="title title2"><i>shanpig-x</i></h2>
+                    </div>
+                    <div class="col-3"></div>
+                    <!-- navbar -->
+                    <div class="col-5 menu">
+                        <nav class="navbar navbar-expand-lg navbar-dark">
+                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon" st></span>
+                              </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav  mr-auto menu-list">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./index.html">Muscles</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link disabled" href="#">Training</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Bodyparts
+                                        </a>
+                                        <div class="dropdown-menu menu-list" aria-labelledby="navbarDropdown">
+                                            <p class="section" href="#"><b>人體七大肌群</b></p>
+                                            <a class="dropdown-item" partname="chest-training" href="#">胸部肌群</a>
+                                            <a class="dropdown-item" partname="back-training" href="#">背部肌群</a>
+                                            <a class="dropdown-item" partname="deltoid-training" href="#">肩部肌群</a>
+                                            <a class="dropdown-item" partname="bicep-training" href="#">肱二頭肌</a>
+                                            <a class="dropdown-item" partname="tricep-training" href="#">肱三頭肌</a>
+                                            <a class="dropdown-item" partname="abs-training" href="#">腹部(核心)肌群</a>
+                                            <a class="dropdown-item" partname="legs-training" href="#">腿部肌群</a>
+                                            <div class="dropdown-divider"></div>
+                                            <p class="section" href="#"><b>其他</b></p>
+                                            <a class="dropdown-item" partname="rotate-cuff-training" href="#">旋轉肌群</a>
+                                            <a class="dropdown-item" partname="relax-training" href="#">放鬆</a>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- central content -->
+            <div class="row">
+                <!-- left hand side -->
+                <div class="col-5">
+                    <div class="bodyparts">
+                        <!-- bodypart image -->
+                        <img class="bodyimage" src="./img/body.png">
+                        <!-- include all the svg parts via w3-include-html function -->
+                        <div id="bodysvg" w3-include-html="./data/bodyshapes_for_training.html"></div>
+                    </div>
+                </div>
+
+                <div class="col-2"></div>
+                <!-- right hand side -->
+                <div class="col-5">
+                    <div id="info-block">
+                        <!-- the X button -->
+                        <button id="close">X</button>
+                        <br>
+                        <!-- information section -->
+                        <div class="row">
+                            <div class="col-12" id="info">
+                                <!-- subtitle -->
+                                <p id="bodyname">訓練影片</p>
+                                <p id="bodyname-sub"></p>
+                                <hr>
+                                <!-- content -->
+                                <div id="content">點擊左方人體肌肉圖或右上角下拉清單選擇身體部位</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-1"></div> -->
+            </div>
+            <br>
+            <!-- footer -->
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <footer>
+                        <hr>
+                        <p><i>&copy 2019 shanpig edit<br><a href="https://shanpig.github.io">https://shanpig.github.io</a></i></p>
+                    </footer>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+
+        <!-- bootstrap, jquery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
+        <!-- w3school prewritten libary (for including html from other file) -->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        
+
+        <!-- self written javascript -->
+        <script src="./js/training.js"></script>
+        <script src="./js/muscles.js"></script>
+        <script src="./js/ctrl-body.js"></script>
+</body>
+
+</html>

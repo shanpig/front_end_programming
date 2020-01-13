@@ -1,0 +1,6 @@
+#start:hover,
+#stop:hover {
+    background-color: #007bff;
+    color: white;
+    transition: all 0.2ms;
+}

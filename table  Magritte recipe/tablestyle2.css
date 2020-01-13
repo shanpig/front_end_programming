@@ -1,0 +1,17 @@
+table.t2,th.t2,td.t2 {
+           background-color: rgb(255, 206, 133);
+           border: 1px solid black;
+           border-collapse: collapse;
+           width: 60%;
+           padding: 3px;
+           font-family: Times New Roman, 標楷體;
+}
+
+tr.t2 {
+           background-color: rgb(255, 206, 133);
+           color: black;
+           font-size: 150%;
+           font-family: Times New Roman, 標楷體; 
+}
+p:hover {
+           color:grey}

@@ -1,0 +1,37 @@
+body {
+	background-image:url(https://images.unsplash.com/photo-1569177992927-bbc0f4b65b93?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.header {
+	font-size:30pt;
+}
+img {
+      width: 85%;
+      height: 30%;
+}
+#img {
+      width: 50%;
+      height: 50%;
+}
+hr {
+      align: middle;
+      width: 70%;
+      border-color: black;
+}
+#hr {
+      align: middle;
+      width: 50%;
+      border-color: black;
+}
+caption {
+      padding: 7px;
+      font-family: Times New Roman;
+      font-size: 40px;
+}
+p.p {
+      font-size: 30px;
+      font-family: SketchFlow Print;
+}
+      

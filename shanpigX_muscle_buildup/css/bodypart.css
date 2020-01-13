@@ -1,0 +1,117 @@
+/* defines all the informations in themain content ( including image, svg, and info block)*/
+
+div.bodyparts {
+    position: absolute;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    min-width: 400px;
+}
+
+img.bodyimage {
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    outline: 10px double rgb(190, 21, 9);
+}
+
+#bodysvg {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+#info-block {
+    outline: 10px double rgb(190, 21, 9);
+    background-color: #e9ecf1;
+    font-family: "sans-serif";
+    margin: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 400px;
+    height: 400px;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+#bodyname {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 1.7em;
+}
+
+#content {
+    overflow-y: scroll;
+    height: 270px;
+    padding: 10px;
+    font-size: 18pt;
+}
+
+#content>a {
+    color: rgb(180, 3, 3);
+    font-family: "sans-serif";
+    font-size: 14pt;
+    letter-spacing: 2px;
+}
+
+div.col-6 {
+    margin: 0 auto;
+}
+
+#content>a:hover {
+    background-color: rgb(133, 2, 2);
+    padding: 4px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#close {
+    position: relative;
+    z-index: 10;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5%;
+    border: 2px solid red;
+    color: white;
+    left: 360px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+#close:hover {
+    box-shadow: 1px 1px 1px 1px rgb(59, 58, 58);
+}
+
+
+/* --------------- */
+
+
+/* defines the alltogether properties for all the svg */
+
+g.areas {
+    fill: transparent;
+    stroke: transparent;
+}
+
+g:hover,
+g.current {
+    fill: url(#Red);
+    cursor: pointer;
+    stroke: red;
+    stroke-width: 4px;
+}
+
+svg.bodyparts {
+    width: 417px;
+    height: 370px;
+}
+
+
+/* --------------- */
+
+.muscle_title {
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+.jumbotron {
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    width: 100%;
+    height: 160px;
+    margin: 0px auto 50px auto;
+    padding: 30px 0px 0px 80px;
+    border-bottom: 5px solid red;
+}
+
+.title {
+    font-family: Fanta;
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 330px;
+}
+
+.title2 {
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    text-shadow: -6px 1px black;
+    width: 325px;
+}

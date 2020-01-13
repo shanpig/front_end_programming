@@ -1,0 +1,194 @@
+        body {
+            background-image: url(./background.jpeg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .intro_image {
+            width: 100%;
+            height: 500px;
+        }
+        /* navigation bar */
+        
+        .navbar {
+            background: -webkit-linear-gradient(rgb(173, 102, 74), rgb(170, 51, 4));
+            color: white !important;
+        }
+        
+        .nav-link {
+            color: white !important;
+        }
+        
+        .nav-item {
+            margin-left: 5px;
+        }
+        
+        .nav-item:hover {
+            background-color: rgb(129, 58, 29);
+            transition: all .3s;
+            border-radius: 15px;
+        }
+        
+        .nav-item.active {
+            border-color: rgb(129, 58, 29);
+            border-radius: 15px;
+            background: -webkit-linear-gradient(rgb(145, 85, 62), rgb(131, 39, 3));
+        }
+        
+        .catalog {
+            padding: 0;
+            width: 80%;
+            text-align: center;
+            display: inline-block;
+            border-width: 10px;
+            border-style: inset;
+            border-radius: 15px;
+            border-color: peru;
+            background: -webkit-linear-gradient( rgba(247, 206, 130, 0.548), rgba(235, 156, 10, 0.7));
+        }
+        
+        .catalog_button {
+            margin: 0;
+            padding: 10pt;
+            font-size: 15pt;
+            cursor: pointer;
+            font-family: Verdana;
+            border-color: transparent;
+            background-color: transparent;
+        }
+        
+        .catalog_button:hover {
+            color: white;
+            background: -webkit-linear-gradient( rgba(175, 78, 78, 0.8), rgba(143, 33, 33, 0.8));
+        }
+        
+        .shadow_background {
+            background-color: rgba(107, 42, 4, 0.4);
+        }
+        
+        .shadow_background:hover {
+            background-color: rgba(107, 42, 4, 0.6);
+            transition: all 0.3s ease 0s;
+        }
+        /* contents */
+        
+        img {
+            object-fit: contain;
+        }
+        
+        .pic {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .spec {
+            font-size: 24pt;
+            margin-top: auto;
+            text-align: center;
+            margin-bottom: auto;
+        }
+        
+        .left_content {
+            text-align: left;
+        }
+        
+        .right_content {
+            text-align: right;
+        }
+        
+        .drink_list {
+            padding-top: 35px;
+            padding-bottom: 20px;
+        }
+        
+        .drinks {
+            height: 200px;
+            width: 250px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+        }
+        
+        .h2_drinks {
+            margin-top: 15px;
+            font-style: italic;
+        }
+        
+        .p_drinks {
+            padding-right: 50px;
+            font-style: italic;
+        }
+        
+        .iced_lemon_tea {
+            background-image: url(./iced_lemon_tea\(1\).jpg);
+        }
+        
+        .orange_juice {
+            background-image: url(./orange_juice\(1\).jpg);
+        }
+        
+        .avocado_smoothie {
+            background-image: url(./avocado_smoothie.jpg);
+        }
+        
+        .capuccino {
+            background-image: url(./cappuccino\(1\).jpg);
+        }
+        /* Tail */
+        
+        .tail {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-width: 7px;
+            border-style: outset;
+            border-color: rgba(155, 108, 54, 0.925);
+            background-color: rgba(245, 169, 83, 0.527);
+        }
+        /* decorations */
+        
+        .drinks_title {
+            font-size: 40pt;
+            text-align: center;
+        }
+        
+        .bar {
+            height: 80px;
+            background-image: url(./bar2.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        /* HOME */
+        
+        div .description {
+            font-size: 20pt;
+            font-family: serif;
+            padding: 20px;
+        }
+        
+        .col-8.description {
+            background-color: rgba(235, 159, 98, 0.473);
+        }
+        
+        .slide_image {
+            background-color: rgba(148, 97, 56, 0.473);
+        }
+        
+        .addr {
+            font-style: italic;
+        }
+        
+        address.addr {
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        
+        p.addr {
+            font-size: 25pt;
+        }
+        
+        span.addr {
+            font-size: 18pt;
+        }

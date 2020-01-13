@@ -1,0 +1,54 @@
+body {
+    background-image: url(../img/background.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    object-fit: contain;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    background: -webkit-linear-gradient(rgb(173, 102, 74), rgb(170, 51, 4));
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-item {
+    margin-left: 5px;
+}
+
+.nav-item:hover {
+    background-color: rgb(129, 58, 29);
+    transition: all .3s;
+    border-radius: 15px;
+}
+
+.nav-item.active {
+    border-color: rgb(129, 58, 29);
+    border-radius: 15px;
+    background: -webkit-linear-gradient(rgb(145, 85, 62), rgb(131, 39, 3));
+}
+
+
+/* Tail */
+
+.tail {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 7px;
+    border-style: outset;
+    border-color: rgba(155, 108, 54, 0.925);
+    background-color: rgba(245, 169, 83, 0.527);
+}

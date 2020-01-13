@@ -1,0 +1,80 @@
+.shadow_background {
+    background-color: rgba(107, 42, 4, 0.4);
+}
+
+.shadow_background:hover {
+    background-color: rgba(107, 42, 4, 0.6);
+    transition: all 0.3s ease 0s;
+}
+
+
+/* contents */
+
+.spec {
+    font-size: 24pt;
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.left_content {
+    text-align: left;
+}
+
+.right_content {
+    text-align: right;
+}
+
+.drink_list {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.drinks {
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.drinks_title {
+    font-size: 40pt;
+    text-align: center;
+}
+
+.h2_drinks {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.p_drinks {
+    padding-right: 50px;
+    font-style: italic;
+}
+
+.iced_lemon_tea {
+    background-image: url(../img/iced_lemon_tea\(1\).jpg);
+}
+
+.orange_juice {
+    background-image: url(../img/orange_juice\(1\).jpg);
+}
+
+.avocado_smoothie {
+    background-image: url(../img/avocado_smoothie.jpg);
+}
+
+.capuccino {
+    background-image: url(../img/cappuccino\(1\).jpg);
+}
+
+.bar {
+    height: 80px;
+    background-image: url(../img/bar2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
