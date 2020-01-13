@@ -13,32 +13,32 @@
   <body style="background-color:lightgrey">
   <center>
 
-<h1>������S�氮 �s�@��k!!!</h1>
+<h1>瑪格莉特餅乾 製作方法!!!</h1>
      <table class="t1" style="width:35%;">
        <caption><b> INGREDIENTS </b></caption>
 
        <tr class="t1">
-         <th class="t1"> ���� </th>
-         <th class="t1"> ���q (g) </th>
+         <th class="t1"> 材料 </th>
+         <th class="t1"> 份量 (g) </th>
        </tr>
        <tr class="t1">
-         <td class="t1"> �L�Q���o </td>
+         <td class="t1"> 無鹽奶油 </td>
          <td class="t1"> 50 </td>
        </tr>
        <tr class="t1">
-         <td class="t1"> �C���ѯ� </td>
+         <td class="t1"> 低筋麵粉 </td>
          <td class="t1"> 50 </td>
        <tr class="t1">
-         <td class="t1"> �ɦ̯� </td>
+         <td class="t1"> 玉米粉 </td>
          <td class="t1"> 50 </td>
        </tr>
        <tr class="t1">
-         <td class="t1"> �} </td>
+         <td class="t1"> 糖 </td>
          <td class="t1"> 25 </td>
        </tr>
        <tr class="t1">
-         <td class="t1"> ���N�J </td>
-         <td class="t1"> �@�� </td>
+         <td class="t1"> 水煮蛋 </td>
+         <td class="t1"> 一顆 </td>
      </table>
   </center>
 <!----------------------------------------------------------------->
@@ -50,27 +50,27 @@
        <caption><b>PROCEDURE<b></caption>
 
        <tr class="t2">
-           <td class="t2">1.���N�L�Q���o��m�Ƿųn�ơA ���ۥ[�J�}�����s�P�o(�C��x��)</td>
+           <td class="t2">1.先將無鹽奶油放置室溫軟化， 接著加入糖粉打製鬆發(顏色泛白)</td>
            <td id="t3"><img src="1.jpg"></td> </tr>
 
 
        <tr class="t2">
-           <td class="t2">2.�q���N�J�����X�J���A�åδ������ۿz�� �L�z�ܿ��֤� (�z���O�ѤF½��U�誺�����A�A�δ��ͧ�J���h���U�ӭ�) ���� �����ͩզ��ΡC</td>
+           <td class="t2">2.從水煮蛋中取出蛋黃，並用湯匙壓著篩網 過篩至鋼盆內 (篩完別忘了翻到下方的那面，再用湯匙把蛋黃屑刮下來唷) 接著 均勻攪拌成團。</td>
            <td id="t3"><img src="2.jpg"></td> </tr>
 
 
        <tr class="t2">
-           <td class="t2">3.�z�J�C���ѯ��P�ɦ̯��A�ô|���ΡA �ΫO�A���]�_�ӡA��J�B�c30�����A�����{�P��~</td>
+           <td class="t2">3.篩入低筋麵粉與玉米粉，並揉成團， 用保鮮膜包起來，放入冰箱30分鐘，讓麵糰鬆弛~</td>
            <td id="t3"><img src="3.jpg"></td> </tr>
 
 
        <tr class="t2">
-           <td class="t2">4.���ɱN�N�c�J��180�סC �q�B�c���X�ѹΫ�A�����@�����p��y�A ��b�M�H�ȤW�A�Ω�����}�A�����۵M�H�� �N�X�ӷ|����n��(���O�˨��Ӵ��}�H����~) �e�J�N�c�N15-20�����A�~���L�L�����N�i�H�o�I</td>
+           <td class="t2">4.此時將烤箱遇熱180度。 從冰箱取出麵團後，分成一顆顆小圓球， 放在烘焙紙上，用拇指壓開，讓它自然碎裂 烤出來會比較好看(但別弄到整個散開碎掉啊~) 送入烤箱烤15-20分鐘，外表微微金黃就可以囉！</td>
            <td id="t3"><img src="4.jpg"></td> </tr>
 
 
        <tr class="t2">
-           <td class="t2">5.��������~ �W�i�R�y���������R�S�氮�X�l�F ��D��|�ܱo�W�p�ܡB�W�n�Y���f�P �Q�ߪ��~���A�]�ˤ@�U���h�e�H�]�O�Ӧn��ܩO�I �o�Ӱ���A�N���֨Ӹոլݧa^^</td>
+           <td class="t2">5.噹噹噹噹~ 超可愛造型的瑪格麗特餅乾出爐了 放涼後會變得超酥脆、超好吃的口感 討喜的外型，包裝一下拿去送人也是個好選擇呢！ 這個假日，就趕快來試試看吧^^</td>
            <td id="t3"><img src="5.jpg"></td> </tr>     
      </table>  
   </center>
