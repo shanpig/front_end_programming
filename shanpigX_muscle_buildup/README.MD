@@ -4,5 +4,5 @@ This repo contains a website of muscle introduction and training videos, which c
 The videos are linked to Athlean-X, the great coach Jeff's youtube videos. Go check it! He's amazing :)<br></p>
 
 
-<a href="https://shanpig.github.io/final/index.html" style="font-size:30pt; text-decoration:none">Go Visit My Website!</a><br>
+<a href="https://shanpig.github.io/front_end_programming/shanpigX_muscle_buildup/index.html" style="font-size:30pt; text-decoration:none">Go Visit My Website!</a><br>
 <a href="https://athleanx.com/the-coach" style="font-size:30pt; text-decoration:none">Go Visit Jeff Cavaliere!</a>
