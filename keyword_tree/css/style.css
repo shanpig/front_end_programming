@@ -1,0 +1,115 @@
+/***********
+*   title  *
+************/
+
+#jumbotron_title {
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: left;
+    background-color: rgb(219, 217, 217);
+    height: 50px;
+    padding: 50px 50px 70px 50px;
+}
+
+#title {
+    padding: 0;
+    height: 200px;
+}
+
+
+/************
+*   功能表   *
+*************/
+
+.btn {
+    display: inline-block;
+    margin: 10px 5px 6px 5px;
+    padding: 5px;
+    font-size: 12pt;
+    border-radius: 7px;
+    transition: all ease 200ms;
+    box-shadow: 1px 1px 3px black;
+}
+
+#functions {
+    padding: 0 20px;
+}
+
+.btn:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.blue_btn {
+    background-color: rgb(159, 193, 245);
+}
+
+.yellow_btn {
+    background-color: rgb(240, 240, 181);
+}
+
+#delete_button {
+    background-color: rgb(247, 162, 162);
+}
+
+#mode_button.search_mode {
+    background-color: rgb(194, 191, 191);
+}
+
+#mode_button.arrange_mode {
+    background-color: rgb(159, 245, 195);
+}
+
+#template_name,
+#template_url {
+    display: inline-block;
+}
+
+#form_content {
+    height: 350px;
+    border-right: 5px solid rgb(204, 204, 204);
+    background-color: rgb(218, 216, 216);
+}
+
+.form-control {
+    margin: 10px auto 0 20px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+
+/************
+*    內容    *
+*************/
+
+#tree_content {
+    height: 350px;
+    background-color: rgb(219, 217, 217);
+}
+
+#scroll-container {
+    height: 340px;
+    margin: 10px 0;
+    overflow-y: scroll;
+    user-select: none;
+}
+
+.jqtree-element {
+    background-color: rgb(243, 241, 241);
+    padding: 0 7px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.jqtree-folder>div.jqtree-element:nth-child(1) {
+    box-shadow: 1px 1px 2px black;
+}
+
+.jqtree-title {
+    margin: 5px;
+}
+
+i {
+    margin-top: 10px;
+}
