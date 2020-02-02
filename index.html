@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Front-end keywords learning list</title>
+
+    <!-- for bootstrap4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- for fontawesome icon -->
+    <script src="https://kit.fontawesome.com/df0b05341f.js" crossorigin="anonymous"></script>
+    <!-- other css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- jqtree css -->
+    <link rel="stylesheet" href="./mbraak-jqTree-f2091a1/jqtree.css">
+</head>
+
+<body style="background-color: rgb(159, 197, 240);">
+    <!-- title -->
+    <div class="container-fluid" id="title">
+        <div id="jumbotron_title" class="jumbotron">Front-end keywords learning list</div>
+    </div>
+
+    <div class="container">
+        <!-- 功能表 -->
+        <div class="row" id="content">
+            <div class="col-4 text-center" id="form_content">
+                <div class="row" id="form">
+                    <input type='text' class='form-control' id='template_name' placeholder='Name'>
+                    <input type='text' class='form-control' id='template_url' placeholder='Url'>
+                </div>
+
+                <div class="row" id="functions">
+                    <!-- 改變模式 -->
+                    <div class="btn search_mode" id="mode_button">Mode : search</div>
+                    <!-- 刪除內容 -->
+                    <div class="btn disabled" id="delete_button">Delete</div>
+                    <!-- 修改內容 -->
+                    <div class="btn yellow_btn disabled" id="update_button">Update</div>
+                    <!-- 新增node -->
+                    <!--# 加入parent -->
+                    <div class='btn blue_btn new_btn disabled' id='new_parent_button'>Add parent</div>
+                    <!--# 加入下一個 -->
+                    <div class='btn blue_btn new_btn disabled' id='new_next_button'>Add next</div>
+                    <!--# 加入子分類 -->
+                    <div class='btn blue_btn new_btn disabled' id='new_child_button'>Add child</div>
+                </div>
+
+            </div>
+            <div class="col-8" id="tree_content">
+                <!-- 內容 -->
+                <div class="row">
+                    <div id="scroll-container" class="col-12">
+                        <div id="tree1">Add new links to create your own learning list!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <footer>
+                <hr>
+                <p style="text-align: center;"><i>&copy <time>2020</time> shanpig edit<br><a href="https://shanpig.github.io">https://shanpig.github.io</a></i></p>
+            </footer>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+
+
+    <!-- bootstrap4, jquery -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- other scripts -->
+    <script src="./js/script.js"></script>
+
+    <!-- jqtree js -->
+    <script src="./mbraak-jqTree-f2091a1/tree.jquery.js"></script>
+
+
+</body>
+
+</html>
