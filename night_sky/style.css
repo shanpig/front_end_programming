@@ -1,0 +1,113 @@
+body{ background-color: rgb(80, 80, 80);}
+
+.debug_border { border: 1px solid black;}
+
+.jumbotron{
+    height: 80px;
+    font-weight: bold;
+    color: rgb(224, 222, 222);
+    background-color: transparent;
+    text-shadow: 6px 4px 4px black;
+}
+
+.pic {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 6px 8px 19px 1px black;
+}
+.pic>* { position: absolute;}
+
+#stars{
+    transform-origin: 50% 100%;
+    width: 200%;
+    height: 100%;
+    left: -50%;
+    background: url(./sources360/images/stars.png) repeat ;
+    animation: star-move 70s infinite linear;
+}
+
+#moon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, rgb(194, 204, 177) 5%, rgb(192, 185, 120) 55%);
+    box-shadow: 0 0 50px 1px rgb(252, 237, 157), 0 0 150px 5px rgb(252, 144, 144);
+    overflow: hidden;
+}
+
+#sea {
+    width: inherit;
+    height: 150px;
+    left: -1px;
+    bottom: 0px;
+    background-image: linear-gradient(to top, rgb(5, 5, 85), rgb(19, 8, 37, 0.9));
+    overflow: hidden;
+    z-index: 3;
+}
+
+#moon_shadow {
+    top: -15px;
+    width: 180px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-image: radial-gradient(circle, rgba(252, 233, 233, 0.2) 5%, rgb(245, 238, 175, 0.2) 55%);
+    box-shadow: 0 0 50px 1px rgb(252, 237, 157, 0.5), 0 0 100px 5px rgb(252, 144, 144, 0.5);
+    animation: moonset_shadow 8s infinite ease-in-out;
+}
+
+#stick {
+    left: -150px;
+    bottom: 25px;
+    z-index: 3;
+    width: 800px;
+    animation: moonset 8s linear infinite;
+    
+}
+
+#twinkling{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background:transparent url(./sources360/images/twinkling.png) repeat top center;
+    animation: twinkling 200s linear infinite;
+}
+
+#clouds {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-size: contain;
+    background: transparent url(./sources360/images/clouds.png) repeat top center;
+    animation: cloud-move 200s linear infinite;
+}
+
+@keyframes moonset {
+    0% { transform: rotate(-20deg);}
+    100% { transform: rotate(200deg);}
+}
+
+@keyframes moonset_shadow {
+    0% { left: -280px;}
+    100% { left: 600px;}
+}
+
+@keyframes twinkling {
+    from { background-position: 0 0;}
+    to { background-position: -10000px 5000px;}
+}
+
+@keyframes cloud-move {
+    from { background-position: 0 0;}
+    to { background-position: -10000px 0;}
+}
+
+@keyframes star-move {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(45deg);}
+}
