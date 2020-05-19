@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constellation background Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black; color: white;">
+  <div id="canvas" class="block"><canvas id="bg" width="800" height="600"></canvas></div>
+  <div id="controls" class="block">
+    <h1>Constellation background Animation</h1>
+    <label for="maxNum" style="color: white;">Number of particles(0 to 100) : </label>
+    <input type="range" id="maxNum" name="maxNum" min="0" max="150" value="70">
+    <br>
+    <label for="thres" style="color: white;">Threshold length(50 to 200) : </label>
+    <input type="range" id="thres" name="thres" min="50" max="200" value="100">
+    <br>
+    <label for="size" style="color: white;">Particle size(0 to 7) : </label>
+    <input type="range" id="size" name="size" min="0" max="7" value="4">
+  </div>
+  <script src="./javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.block{
+  float: left;
+}
+
+#canvas{
+  width: 800px;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+#controls{
+  text-align: center;
+  width: 400px;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+}
+label {
+  font-size: 20pt;
+}
