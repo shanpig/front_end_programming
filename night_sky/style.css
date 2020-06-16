@@ -110,4 +110,5 @@ body{ background-color: rgb(80, 80, 80);}
 @keyframes star-move {
     from { transform: rotate(0deg);}
     to { transform: rotate(45deg);}
+
 }
