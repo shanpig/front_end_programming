@@ -170,7 +170,7 @@ Responsive media queries
 .banner-text h2 span {
     font-family: 'Satisfy', cursive;
 }
-
+/*  */
 .banner-image {
     background-image: url(../img/face2.jpg);
     background-position: center;
