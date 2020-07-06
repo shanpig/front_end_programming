@@ -15,6 +15,7 @@ Feel free to checkout, play around, or clone/fork my work :)
   <li><a href="https://shanpig.github.io/front_end_programming/night_sky/index.html">Night sky</a></li> 
   <li><a href="https://shanpig.github.io/front_end_programming/shanpigX_muscle_buildup/index.html">ShanpigX muscle buildup</a></li> 
   <li><a href="https://shanpig.github.io/front_end_programming/table_Magritte_recipe/index.html">Magritte recipe</a></li> 
+  <li><a href="https://shanpig.github.io/giftu/">Giftu website</a></li> 
 </ul>
 
 If you have any questions or suggestions, feel free to contact me and let's discuss!<br>
